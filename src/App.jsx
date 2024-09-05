@@ -5,8 +5,8 @@ import Footer from "./pages/components/layout/Footer.jsx";
 function App() {
     return (
         <div className="min-h-screen">
+            <Header />
             <div className="container mx-auto">
-                <Header />
                 <Router />
             </div>
             <Footer />
@@ -15,4 +15,6 @@ function App() {
 }
 
 export default App;
+
+
 
