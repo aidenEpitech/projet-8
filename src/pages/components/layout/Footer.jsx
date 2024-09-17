@@ -1,7 +1,7 @@
-import { Link } from 'react-router-dom';
 import logo from '../../../assets/logo-white.svg'
 
 const Header = () => {
+
     return (
         <footer className={"bg-black text-white py-8"}>
             <div className={"container mx-auto text-center"}>

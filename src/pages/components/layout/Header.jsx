@@ -2,11 +2,14 @@ import { Link } from 'react-router-dom';
 import logo from '../../../assets/logo.svg';
 
 const Header = () => {
+
     return (
         <header className={"bg-white p-4"}>
             <div className={"container mx-auto flex justify-between items-center"}>
                 <div>
-                    <img src={logo} alt={"Kasa Logo"} className={"h-12"} />
+                    <Link to="/">
+                        <img src={logo} alt={"Kasa Logo"} className={"h-12"} />
+                    </Link>
                 </div>
                 <nav>
                     <ul className={"flex space-x-6"}>
@@ -24,7 +27,7 @@ const Header = () => {
                 </nav>
             </div>
         </header>
-    )
+    );
 };
 
 export default Header;

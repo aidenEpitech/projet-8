@@ -1,4 +1,5 @@
-const Banner = ({ imageSrc, text }) => {
+const Banner = ({imageSrc, text}) => {
+
     return (
         <div
             className="relative rounded-lg shadow-lg overflow-hidden h-64"
@@ -8,7 +9,6 @@ const Banner = ({ imageSrc, text }) => {
                 backgroundPosition: 'center',
             }}
         >
-            {/* Fond noir avec opacité toujours appliqué */}
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
                 {text && (
                     <h1 className="text-white text-4xl font-bold">{text}</h1>
